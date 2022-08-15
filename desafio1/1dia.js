@@ -18,12 +18,14 @@ for(multiplica = 1; multiplica <= 10; multiplica ++){
 }
 
 
-function resultado(){  
+function resultado(){
+    
   for(multiplica = 1; multiplica <= 10; multiplica ++){
     let tabuada = parseFloat(document.querySelector("#numero").value);
     for(multiplica = 1; multiplica <= 10; multiplica ++){
       let resultado = tabuada *multiplica;
-      mostra(tabuada * multiplica);    
+      
+      mostra(tabuada + " x " + multiplica + " = " + resultado);    
     }
   }
 }
