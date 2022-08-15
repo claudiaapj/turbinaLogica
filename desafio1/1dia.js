@@ -17,6 +17,7 @@ for(multiplica = 1; multiplica <= 10; multiplica ++){
   mostra(8 * multiplica);
 }
 
+
 function resultado(){  
   for(multiplica = 1; multiplica <= 10; multiplica ++){
     let tabuada = parseFloat(document.querySelector("#numero").value);
